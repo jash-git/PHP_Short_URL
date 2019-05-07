@@ -1,0 +1,149 @@
+/* -----------------------------------------------------
+Theme Name: Comment
+Theme URI: https://www.minwt.com/
+Description: CMS佈景主題
+Version: 12.1
+Author: 梅干桑
+Author URI: https://www.minwt.com/
+----------------------------------------------------- */
+html,body {height: 100%; -webkit-font-smoothing: antialiased;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, .select_menu
+ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background:transparent;
+  word-wrap: break-word; 
+  word-break: break-all;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+body{
+	margin-top: -20px;
+}
+/* ========================= */
+/* 回應 */
+/* ========================= */
+.comment h3{
+	text-align: center;
+  padding: 15px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+  font-size: 18px;
+  color: #333;
+  background: #fff;
+  font-weight: normal;
+}
+#respond{
+	padding: 20px;
+	margin-top: 3px;
+	background: #f9f9f9;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+}
+#commentform input ,#commentform textarea{
+	border:solid 1px #eee;
+	padding:5px;
+	margin:5px;
+	width:245px;
+}
+
+.comment p{padding:20px;}
+.commentmetadata{text-align:right;}
+.comment-author .floor{margin-bottom:10px;}
+.fn ,.says{font-size:15px; font-weight: bold;}
+
+.commentlist li{
+	clear:both; 
+	margin:10px 0 20px; 
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+	padding: 20px;
+}
+.page-numbers{float:left; color:#333; font-size:13px;}
+.comments-nav{
+	clear:both;
+	overflow:hidden;
+	margin-top: 20px;
+	margin-bottom:15px; 
+	margin-left:5px; 
+	font-size:13px; 
+ }
+.comments-nav a{
+	color: #333;
+	float:left; 
+	padding:2px 7px; 
+	margin:0 2px; 
+	text-decoration:none;}
+.comments-nav a:hover{border-color: #111;}
+.current{
+	background:#333; 
+	color:#eee;
+	padding:2px 7px;
+}
+
+.re {
+	margin:8px 15px 8px 8px;
+	padding:10px;
+	border:1px solid #ccc;
+	background-color:#fff;
+}
+.re b {
+	font-size:15px;
+	clear:both;
+}
+
+.reinfo {
+	display:block;
+	float:left;
+	font-weight:bold;
+	font-size:13px;
+}
+.commentlist{
+	background: #f9f9f9;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+	margin-top: 1px;
+	padding: 20px;
+}
+.commentlist li{
+	background: #fff;
+}
+ .widget.comment p a {
+ 	text-decoration: none;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    -webkit-transform: scale(1.0,1.0);
+    -webkit-transition: all 0.8s;
+    transform: scale(1.0,1.0);
+    transition: all 0.8s;
+    height: 43px;
+    line-height: 2em;
+    overflow: hidden;
+    font-size: 15px;
+}
+.widget p a {
+    display: block;
+    color: #eee;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #343434;
+}
